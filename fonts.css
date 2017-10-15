@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: "Caponi-Slab-Semibold";
+  src: url("fonts/CaponiSlab-Semibold-Web.woff2") format("woff2"), url("fonts/CaponiSlab-Semibold-Web.woff") format("woff");
+  font-weight: $bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("fonts/ProximaNova-Reg-webfont.woff2") format("woff2"), url("fonts/ProximaNova-Reg-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("fonts/ProximaNova-Sbold-webfont.woff2") format("woff2"), url("fonts/ProximaNova-Sbold-webfont.woff") format("woff");
+  font-weight: $bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("fonts/ProximaNova-Xbold-webfont.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}

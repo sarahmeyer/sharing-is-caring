@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      slidez
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="https://www.buzzfeed.com/static-assets/solid/solid.2.9.1.min.css" rel="stylesheet" />
+    <link href="slide.css" rel="stylesheet" />
+    <link href="fonts.css" rel="stylesheet" />
+    <script src="slide.js" ></script>
+  </head>
+  <body>
+    <div class="content" id="content">
+      <div class="identifiers">
+        <div>Sharing is Caring... At Scale!</div>
+        <div>Sarah Meyer, BuzzFeed</div>
+        <div>@meyerini</div>
+      </div>
+
+      <div class="slide visible-slide">
+        <h1 class="blue-text">
+          Sharing is Caring
+        </h1>
+        <h2>
+          ... At Scale!
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Sarah Saltrick Meyer
+        </h2>
+        <h3>
+          BuzzFeed
+        </h3>
+
+        <p class="yellow-text">
+          Twitter: @meyerini
+          <span>
+            💁
+          </span>
+        </p>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Sometimes, we want to share.
+        </h2>
+      </div>
+
+
+      <div class="slide">
+        <h2>
+          Wait, but why?
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Wait, but why?
+        </h2>
+        <ul>
+          <li>
+            You serve developers outside your organization.
+          </li>
+        </ul>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Wait, but why?
+        </h2>
+        <ul>
+          <li>
+            You serve developers outside your organization.
+          </li>
+          <li>
+            You develop many front-end applications, perhaps for clients.
+          </li>
+        </ul>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Wait, but why?
+        </h2>
+        <ul>
+          <li>
+            You serve developers outside your organization.
+          </li>
+          <li>
+            You develop many front-end applications, perhaps for clients.
+          </li>
+          <li>
+            Your front end consists of multiple applications, but you want a unified look and feel.
+          </li>
+        </ul>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Wait, but why?
+        </h2>
+        <ul>
+          <li>
+            You serve developers outside your organization.
+          </li>
+          <li>
+            You develop many front-end applications, perhaps for clients.
+          </li>
+          <li>
+            Your front end consists of multiple applications, but you want a unified look and feel.
+          </li>
+          <li>
+            You want your front-end code to be reusable.
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="slide">
+        <h2>
+          Wait, but why?
+        </h2>
+        <ul>
+          <li>
+            You serve developers outside your organization.
+          </li>
+          <li>
+            You develop many front-end applications, perhaps for clients.
+          </li>
+          <li class="highlighted">
+            Your front end consists of multiple applications, but you want a unified look and feel.
+          </li>
+          <li>
+            You want your front-end code to be reusable.
+          </li>
+        </ul>
+      </div>
+
+      <div class="slide">
+        <h2>
+          The solution for you may be a <em>component library</em>.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          A what now?
+        </h2>
+      </div>
+
+      <div class="slide">
+        <p class="quote">
+          Done properly, [component libraries] can be a collaboration tool bridging design and development teams as well as a tool to break down the user interface into its component parts rather than than thinking about it as a whole or as a series of pages.
+        </p>
+        <p class="quote-attribution">
+          - Ian Feather, http://ianfeather.co.uk/a-maintainable-style-guide/
+        </p>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Let me tell you about BuzzFeed.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Let me tell you about BuzzFeed.
+        </h2>
+        <ol>
+          <li>
+            From monolith to microservices
+          </li>
+        </ol>
+      </div>
+
+
+      <div class="slide">
+        <h2>
+          Let me tell you about BuzzFeed.
+        </h2>
+        <ol>
+          <li>
+            From monolith to microservices
+          </li>
+          <li>
+            Container-based development and deployment environment
+          </li>
+        </ol>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Let me tell you about BuzzFeed.
+        </h2>
+        <ol>
+          <li>
+            From monolith to microservices
+          </li>
+          <li>
+            Container-based development and deployment environment
+          </li>
+          <li>
+            Balkanization of the front end
+          </li>
+        </ol>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Let me tell you about BuzzFeed.
+        </h2>
+        <ol>
+          <li>
+            From monolith to microservices
+          </li>
+          <li>
+            Container-based development and deployment environment
+          </li>
+          <li>
+            Balkanization of the front end
+          </li>
+          <li>
+            Existing CSS style guide (my beloved solid.buzzfeed.com/)
+          </li>
+        </ol>
+      </div>
+
+      <div class="slide">
+        <h2>
+          From one monolithic webapp to 472 services
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          One very good containerization solution
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          One very good containerization solution
+        </h2>
+        <h3>
+          Please Google "Deploy with haste: the story of rig", by Matt Reiferson.
+        </h3>
+      </div>
+
+      <div class="slide">
+        <img class="absolute" src="images/buzzfeed_dot_com.png" />
+      </div>
+
+      <div class="slide">
+        <h2>
+          When copy-paste just won't cut it anymore
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Let me introduce you to one of my friends.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Ian
+        </h2>
+        <img class="friend" src="images/ian.jpg" />
+
+        <h3 class="link-twitter">
+          @ianfeather
+        </h3>
+        <p>
+          Used to work at Lonely Planet
+        </p>
+        <p>
+          Made three (!!!) separate attempts at developing a component library
+        </p>
+      </div>
+
+      <div class="slide">
+        <img class="absolute" src="images/ians_talk.png" />
+        <h3>
+          https://www.youtube.com/watch?v=XNoX1FRZ8kE
+        </h3>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Actually, we tried to do this at BuzzFeed before.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Even the best technology is worth nothing if it doesn't come at the right time.
+        </h2>
+      </div>
+
+
+      <div class="slide">
+        <h2>
+          So what the heck is a buzz... block... thingy?
+        </h2>
+      </div>
+
+      <div class="slide">
+        <ol>
+          <li>
+            components
+          </li>
+          <li>
+            docs
+          </li>
+          <li>
+            fonts
+          </li>
+          <li>
+            img
+          </li>
+          <li>
+            js
+          </li>
+          <li>
+            scss
+          </li>
+          <li>
+            snippets
+          </li>
+        </ol>
+      </div>
+
+      <div class="slide">
+        <h2>
+          How do we define a component?
+        </h2>
+      </div>
+
+      <div class="slide">
+        <ol>
+          <li>
+            component definition
+          </li>
+          <li>
+            javascript file
+          </li>
+          <li>
+            serverside template
+          </li>
+          <li>
+            clientside template
+          </li>
+          <li>
+            scss file
+          </li>
+        </ol>
+      </div>
+
+      <div class="slide">
+        <img src="images/componentyml.png" />
+      </div>
+
+      <div class="slide">
+        <img src="images/clientside.png" />
+      </div>
+
+
+      <div class="slide">
+        <img src="images/clientside2.png" />
+      </div>
+
+
+      <div class="slide">
+        <img src="images/serverside.png" />
+      </div>
+
+      <div class="slide">
+        <h2>
+          The why of a component library is also the how.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          This is Jack.
+        </h2>
+        <img class="friend" src="images/jack.jpg" />
+        <h3 class="link-twitter">
+          @jackreid
+        </h3>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Jack and this amazing developer named Artyom have done a lot of the heavy lifting on BuzzBlocks.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          And it was Artyom who coded up the gallery.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Documentation Is Your Only Hope
+        </h2>
+      </div>
+      <div class="slide">
+        <ol>
+          <li>
+            readme
+          </li>
+          <li>
+            contributing
+          </li>
+          <li>
+            usage
+          </li>
+          <li>
+            naming
+          </li>
+          <li>
+            faq
+          </li>
+        </ol>
+      </div>
+
+      <div class="slide">
+        <p class="code">
+          rig run bpager --no-limit-resources -e local_fe_modules=true
+        </p>
+      </div>
+
+      <div class="slide">
+        <h2>
+          On Giving the People What They Want
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          On Giving the People What They Want
+        </h2>
+        <p>
+          <em>
+            And nothing else.
+          </em>
+        </p>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Semver
+        </h2>
+        <ol>
+          <li>
+            major: Would your change require changes to somebody's application code? If so it's a major version bump. These could include a breaking change to a component's appearance or behaviour, a major visual change to an image asset, or a big deprecation.
+          </li>
+          <li>
+            feature: A new component, image asset, or service added
+          </li>
+          <li>
+            patch: A bug fix. A non-breaking change to a service or component API. A refactor that does not affect the appearance or behaviour of a component.
+          </li>
+          <li>
+            nochange: that isn't ready for use yet or doesn't need to be published to npm (e.g. documentation).
+          </li>
+        </ol>
+      </div>
+
+      <div class="slide">
+        <h2>
+          We Love NPM!
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          We Love NPM!
+        </h2>
+        <h3>
+          A web hook publishes every commit that touches the BuzzBlocks directory as a test npm package (if the build is successful).
+        </h3>
+      </div>
+
+      <div class="slide">
+        <h2>
+          On the Trust Budget
+        </h2>
+        <p>
+          You can only break someone's shit so many times.
+        </p>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Okay, that's great and all, how do you not break things?
+        </h2>
+      </div>
+
+      <div class="slide">
+        <ol>
+          <li>
+            Functionality: unit tests
+          </li>
+        </ol>
+      </div>
+
+      <div class="slide">
+        <ol>
+          <li>
+            Functionality: unit tests
+          </li>
+          <li>
+            Markup: snapshot testing
+          </li>
+        </ol>
+      </div>
+
+      <div class="slide">
+        <ol>
+          <li>
+            Functionality: unit tests
+          </li>
+          <li>
+            Markup: snapshot testing
+          </li>
+          <li>
+            CSS: visual regression in headless Chrome (bye bye Phantom)
+          </li>
+        </ol>
+      </div>
+
+      <div class="slide">
+        <h2>
+          The Slack channel is one of the most important parts of the project.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Developers need to know where the code they're changing is being used.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Developers need to know where the code they're changing is being used.
+        </h2>
+        <h3>
+          Umm, we haven't necessarily solved this one...
+        </h3>
+      </div>
+
+      <div class="slide">
+        <h2>
+          The success of a project like this can be measured by developer buy-in.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          A component library is a process, not a product.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Suddenly, you're the community manager of an internal open-source library!
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Suddenly, you're the community manager of an internal open-source library!
+        </h2>
+        <h3>
+          Oh, you lucky dev, you.
+        </h3>
+      </div>
+
+      <div class="slide">
+        <p class="quote">
+          It's not a bad project, but it's not a fun project.
+        </p>
+        <p class="quote-attribution">
+          - Jack Reid
+        </p>
+      </div>
+
+      <div class="slide">
+        <p class="quote">
+          99% of this is people.
+        </p>
+        <p class="quote-attribution">
+          - Jack Reid
+        </p>
+      </div>
+
+      <div class="slide">
+        <h2>
+          So what's next for BuzzBlocks?
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Meet Emily.
+        </h2>
+        <img class="friend" src="images/emily.jpg" />
+        <h3 class="link-twitter">
+          @emilybrick
+        </h3>
+      </div>
+
+      <div class="slide">
+        <h2>
+          From an engineering solution to a design system.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          "System-first" is not the most intuitive way for designers faced with constantly changing business requirements to work.
+        </h2>
+        <h3>
+          It's our job to make it as easy as possible for them.
+        </h3>
+      </div>
+
+      <div class="slide">
+        <h2>
+          You are a translator between humans and computers.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Every technical problem becomes a human problem at scale.
+        </h2>
+      </div>
+
+      <div class="slide">
+        <h2>
+          Thank you!
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
