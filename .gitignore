@@ -1,0 +1,82 @@
+system/vm/mods/*
+.vagrant/
+.vagrant-rig
+.vagrant-legacy
+deploy/*.retry
+.vault_pass.txt
+
+# python
+*.pyc
+htmlcov/
+.coverage
+.ropeproject
+
+# build
+dist/*
+npm-debug.log
+node_modules/
+.cache
+package.json.cache
+.flowconfig
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+# emacs
+*~
+# vs code
+.vscode/
+.history
+# linux
+.directory
+# mac os x
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+# tags
+tags
+TAGS
+
+# intellij products
+.idea
+.iml
+*.iml
+*.orig
+
+.sass-cache
+
+# rig
+pubring.gpg~
+pubring.kbx~
+secring.gpg
+terraform.pem
+*.egg-info
+secrets.yml
+secrets.*.yml
+/system/vm/ecrdev.credentials
+/system/keyrings/default/pubring.gpg~
+/system/keyrings/default/pubring.kbx~
+/system/keyrings/default/secring.gpg
+/system/keyrings/admin/pubring.gpg~
+/system/keyrings/admin/pubring.kbx~
+/system/keyrings/admin/secring.gpg
+.terraform
+terraform.tfstate.backup
+ansible/*.retry
+terraform/rig/crash.log
+
+# kitchen
+.kitchen
+.kitchen.local.yml
+tags
+.tags
+.tags1
+
+# ipython notebooks
+.ipynb_checkpoints/
+*.ipynb
+
